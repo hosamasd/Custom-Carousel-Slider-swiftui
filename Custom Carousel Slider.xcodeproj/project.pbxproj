@@ -11,6 +11,7 @@
 		9FBBCB6C257D5336000B48FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBCB6B257D5336000B48FD /* ContentView.swift */; };
 		9FBBCB6E257D5337000B48FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBCB6D257D5337000B48FD /* Assets.xcassets */; };
 		9FBBCB71257D5337000B48FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBCB70257D5337000B48FD /* Preview Assets.xcassets */; };
+		9FBBCB7C257D5357000B48FD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBCB7B257D5357000B48FD /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9FBBCB6D257D5337000B48FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FBBCB70257D5337000B48FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FBBCB72257D5337000B48FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBBCB7B257D5357000B48FD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				9FBBCB69257D5336000B48FD /* Custom_Carousel_SliderApp.swift */,
-				9FBBCB6B257D5336000B48FD /* ContentView.swift */,
+				9FBBCB79257D5343000B48FD /* scenes */,
 				9FBBCB6D257D5337000B48FD /* Assets.xcassets */,
 				9FBBCB72257D5337000B48FD /* Info.plist */,
 				9FBBCB6F257D5337000B48FD /* Preview Content */,
@@ -67,6 +69,15 @@
 				9FBBCB70257D5337000B48FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FBBCB79257D5343000B48FD /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBCB6B257D5336000B48FD /* ContentView.swift */,
+				9FBBCB7B257D5357000B48FD /* Home.swift */,
+			);
+			path = scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FBBCB6C257D5336000B48FD /* ContentView.swift in Sources */,
+				9FBBCB7C257D5357000B48FD /* Home.swift in Sources */,
 				9FBBCB6A257D5336000B48FD /* Custom_Carousel_SliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
